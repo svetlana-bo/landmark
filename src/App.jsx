@@ -1,7 +1,8 @@
 
 import './App.css'
+import About from './components/About'
+import BottomNav from './components/BottomNav'
 import Cards from './components/Cards'
-import Card from './components/Cards'
 import TopBar from './components/TopBar'
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
     <>
     <TopBar/>
     <Cards/>
+    <About/>
+    <BottomNav/>
     </>
   )
 }
